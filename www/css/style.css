@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;700&display=swap');
+
+@media screen and (max-width: 1200px){
+    nav{
+        top: 0;
+        position: sticky;
+    }
+
+    nav ul{
+        justify-content: center;
+    }
+
+    main{
+        flex-flow: column nowrap;
+    }
+
+    main aside{
+        align-self: stretch;
+    }
+}
+
+@media screen and (max-width: 768px){
+    nav{
+        top: 0;
+        position: sticky;
+    }
+
+    nav ul{
+        justify-content: center;
+    }
+
+    main{
+        flex-flow: column nowrap;
+    }
+
+    main aside{
+        align-self: stretch;
+    }
+}
+
+*{
+    font-family: 'Mulish', sans-serif;
+    box-sizing: border-box;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+h1, h2, h3{
+    color: #060047;
+}
+
+header{
+    display: inline;
+}
+
+.navbar-container{
+    padding: 50px;
+}
+
+.detail-title{
+    padding: 20px;
+    text-align: center;
+    font-size: 20px;
+    color: #060047;
+}
+
+nav{
+    top: 0;
+    position: sticky;
+    background-color: #7A4495;
+}
+
+nav ul{
+    padding-inline: 4rem;
+    display: flex;
+    gap: 2rem;
+}
+
+.nav-list ul li{
+    display: inline;
+    padding: 20px;
+    justify-content: space-around;
+    list-style-type: none;
+}
+
+.nav-list ul li a{
+    color: white;
+    font-weight: 650;
+}
+
+main{
+    padding: 20px;
+    margin: 0;
+    display: flex;
+    gap: 3.5rem;
+}
+
+.spasi{
+    padding: 25px;
+}
+
+.rule{
+    display: flex;
+    flex-direction: row;
+}
+
+.sinopsis{
+    text-align: justify;
+}
+
+.poster{
+    max-height: 450px;
+    object-fit: scale-down;
+    padding: 15px;
+}
+
+figcaption{
+    text-align: center;
+}
+
+aside{
+    flex: 1;
+}
+
+.profile img{
+    border-radius: 10%;
+    width: 200px;
+}
+
+.profile{
+    text-align: center;
+    padding: 20px;
+}
+
+.btn, .boxs{
+    font-weight: 350;
+    font-size: 1rem;
+    font-family: 'Mulish', sans-serif;
+    color: white;
+    border: 0px solid transparent;
+    border-radius: 99px;
+    text-align: center;
+    background-color: #E96479;
+    display: inline;
+    padding: 15px;
+}
+
+.btn a{
+    color: white;
+    font-weight: bold;
+}
+
+footer{
+    padding: 20px;
+    color: white;
+    background-color: #4D455D;
+    text-align: center;
+    font-weight: bold;
+}
